@@ -1,10 +1,15 @@
 # Component Dimensioning & Notes on PCB design
 
-## Power supply : MAX 200008 
+## Power supply : MAX 20008 
 
-lower Fosc = lower temp increase, fosc = 250Khz
+ In the board dimensioning file from the V1 MUAV Board I estimated that the eventual current draw of the MUAV board would be at least 6A (generous estimate).  I chose the MAX20008 buck converter, rated for 8A RMS. Here i detail the steps i took to dimension the different components . 
 
 ### RFOSC : 
+
+
+using a Lower Fosc = lower temp increase, i chose fosc = 250Khz
+
+
 
 ![](images/RFOSC.png)
 
