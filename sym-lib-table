@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "MUAV")(type "KiCad")(uri "${KIPRJMOD}/footprints+symbols/MUAV.kicad_sym")(options "")(descr ""))
+)

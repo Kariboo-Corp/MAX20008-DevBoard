@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Documents\RCS_LABS\MUAV\Version 1\Kicad_files\V-1\power supply prototype\power supply prototype.kicad_sch</source>
+    <date>2/8/2023 11:11:54 AM</date>
+    <tool>Eeschema (6.0.8)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power supply prototype.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power_supply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/orange cube/" tstamps="/b9ca04da-4900-49f4-8329-92d479cd7d5e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>orange_cube.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Compute Module/" tstamps="/afb6bd1c-da3d-4b71-a28a-56364f3a1ce6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>untitled.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/IO ports/" tstamps="/9c8224a3-9186-464f-815b-70a8a0256081/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>io_ports.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CBIAS1">
+      <value>2.2µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>7bf42035-8707-4f36-954e-0de01a43a425</tstamps>
+    </comp>
+    <comp ref="Cbst1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="part nb">GCM188R71H104KA57D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="part nb" value="GCM188R71H104KA57D"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>ab18bc94-aa5d-4f69-9a4e-23cd472a9857</tstamps>
+    </comp>
+    <comp ref="Cbyp1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4">GCM188R71H104KA57D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Field4" value="GCM188R71H104KA57D"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>6d765536-b753-4627-a7a6-ab03766f7bca</tstamps>
+    </comp>
+    <comp ref="Cc1">
+      <value>DNp</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>2ee1c44f-a00c-494f-9add-2105f5d0c554</tstamps>
+    </comp>
+    <comp ref="CF1">
+      <value>DNP</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>3b3fb68e-6fa2-437a-946a-5bb368d8081c</tstamps>
+    </comp>
+    <comp ref="Cout1">
+      <value>100µF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="part nb">GRM32ER61A107ME20L</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="part nb" value="GRM32ER61A107ME20L"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>e6a81136-f60c-44ca-b0cd-da4df0e16cb3</tstamps>
+    </comp>
+    <comp ref="Csup1">
+      <value>4.7µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field5">GRT188R6YA475KE13D</field>
+        <field name="link">https://jlcpcb.com/partdetail/749372-GRT188R6YA475KE13D/C711100</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="link" value="https://jlcpcb.com/partdetail/749372-GRT188R6YA475KE13D/C711100"/>
+      <property name="Field5" value="GRT188R6YA475KE13D"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>cf6ef9f3-73b2-4282-9aa3-0b5a1d5586cf</tstamps>
+    </comp>
+    <comp ref="CSup2">
+      <value>47µF</value>
+      <footprint>footprints:CAP_EEHZA1E470V</footprint>
+      <fields>
+        <field name="Part nb">EEHZC1V470V</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Part nb" value="EEHZC1V470V"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>9c87c145-ad73-43e6-8fde-b27f5973641d</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>4c3308c8-ff33-413c-a1f7-2016602d35b4</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>9fbbb825-bc55-45ea-b935-d42b4207c6f9</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>349a7774-e2f2-4261-8832-c1df91973ee9</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>a04a4a23-bb14-402f-a78c-64df4beb24a0</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Banana Plug</value>
+      <footprint>Connector:Banana_Jack_2Pin</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>283a7c9f-4ebd-449d-8eb1-d3ddd7d144c4</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10µH</value>
+      <footprint>footprints:SRP1265C</footprint>
+      <fields>
+        <field name="Part nb">EEHZA1E470V</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part nb" value="EEHZA1E470V"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>bd01ee75-6749-4199-85b0-41c1640dc461</tstamps>
+    </comp>
+    <comp ref="RCOMP1">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>f41b648e-a964-4fd6-95f9-615c65111f7d</tstamps>
+    </comp>
+    <comp ref="R_OSC1">
+      <value>294k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>195dcf48-40b2-49ba-bb5d-15ea8ff4de72</tstamps>
+    </comp>
+    <comp ref="R_RST1">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-0710KL_C60490.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-0710KL_C60490.html"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>c1548ffb-8cba-47ae-ade8-a274e39ed954</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>f905ca60-23f5-40a7-9c85-64688839a1e3</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>8f5042a7-3d6a-4d63-a2f6-abcc0068544e</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>be06d4df-1f2d-482e-b272-02aa7f3e3b9c</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>b8bfd213-f637-4008-896d-8d75706a7ae9</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <datasheet>  (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>1212ae53-23f4-4263-b5be-aa9666f87a52</tstamps>
+    </comp>
+    <comp ref="XT60_1">
+      <value>J1</value>
+      <footprint>footprints:XT60 conn</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="power supply"/>
+      <property name="Sheetfile" value="File: power_supply.kicad_sch"/>
+      <sheetpath names="/power supply/" tstamps="/4fd39f72-c251-4869-a1f4-1300e401ff75/"/>
+      <tstamps>15c77db9-1b2a-4aed-919b-834963d89204</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MUAV" part="MAX200008A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX200008A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="RESET" type="input"/>
+        <pin num="3" name="BST" type="bidirectional"/>
+        <pin num="4" name="PGND" type="power_in"/>
+        <pin num="5" name="PGND" type="power_in"/>
+        <pin num="6" name="LX" type="power_in"/>
+        <pin num="7" name="PGND" type="power_in"/>
+        <pin num="8" name="PGND" type="power_in"/>
+        <pin num="9" name="SUPSW" type="bidirectional"/>
+        <pin num="10" name="SUP" type="bidirectional"/>
+        <pin num="11" name="EN" type="bidirectional"/>
+        <pin num="12" name="SYNC" type="bidirectional"/>
+        <pin num="13" name="BIAS" type="bidirectional"/>
+        <pin num="14" name="GND" type="bidirectional"/>
+        <pin num="15" name="COMP" type="bidirectional"/>
+        <pin num="16" name="FB" type="bidirectional"/>
+        <pin num="17" name="FOSC" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MUAV">
+      <uri>D:\Documents\RCS_LABS\MUAV\Version 1\Kicad_files\V-1\power supply prototype/footprints+symbols/MUAV.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="Cout1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R_RST1" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="CSup2" pin="1" pintype="passive"/>
+      <node ref="Cbyp1" pin="1" pintype="passive"/>
+      <node ref="Csup1" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="XT60_1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="3" name="-BATT">
+      <node ref="CBIAS1" pin="2" pintype="passive"/>
+      <node ref="CF1" pin="2" pintype="passive"/>
+      <node ref="CSup2" pin="2" pintype="passive"/>
+      <node ref="Cbyp1" pin="2" pintype="passive"/>
+      <node ref="Cc1" pin="2" pintype="passive"/>
+      <node ref="Cout1" pin="2" pintype="passive"/>
+      <node ref="Csup1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R_OSC1" pin="2" pintype="passive"/>
+      <node ref="XT60_1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/power supply/BIAS">
+      <node ref="CBIAS1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/power supply/BST">
+      <node ref="Cbst1" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/power supply/COMP">
+      <node ref="CF1" pin="1" pintype="passive"/>
+      <node ref="RCOMP1" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/power supply/FOSC">
+      <node ref="R_OSC1" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/power supply/LX">
+      <node ref="Cbst1" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/power supply/RESET">
+      <node ref="R_RST1" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(Cc1-Pad1)">
+      <node ref="Cc1" pin="1" pintype="passive"/>
+      <node ref="RCOMP1" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
