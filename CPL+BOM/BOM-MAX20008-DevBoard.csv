@@ -1,0 +1,18 @@
+﻿Column1;Column2;Column3;Column4
+Comment;Designator;Footprint;LCSC Part #
+2.2µF 50V  Unpolarized capacitor;CBIAS1;0603;C408135
+100nF 50V Unpolarized capacitor;Cbst1,  Cbyp1;0603;C85960
+DNP Unpolarized capacitor;Cc1;0603;DNP
+DNP Unpolarized capacitor;CF1;0603;DNP
+100µF 5V Low ESR Unpolarized capacitor;Cout1;1210;C84455
+4.7µF 35 V low ESR Unpolarized capacitor;Csup1;0603;C711100
+47µF low ESR 35V  Polarized capacitor;CSup2;CP_Elec_10x10.5;C473201
+MountingHol;H1,H2,H3,H4;MountingHole_4.3mm_M4;DNP
+Banana Plug ;J1;Banana_Jack_2Pin;DNP
+10µH 18A  Inductor;L1;SRP1265C;DNP
+294k Resistor;R_OSC1;0603;C13177
+20k Resistor;R_RST1;0603;C22173
+DNP Resistor;RCOMP1;0603;DNP
+TestPoint : Pin Header;TP1,TP2,TP3,TP4,TP5;TestPoint_THTPad_2.0x2.0mm_Drill1.0mm;C492400
+2 Pad connector;XT60_1;XT60 conn;DNP
+SB1060L;Drpp1;TO277B;C2929649

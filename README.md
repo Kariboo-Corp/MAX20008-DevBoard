@@ -1,4 +1,7 @@
-# Component Dimensioning & Notes on PCB design
+This repo contains my work on the MAX20008 buck converter. The *Gerbers* folder contains the fabrication outputs, the *BOM+CPL* folder contains the BOM and CPL. 
+
+
+## Component Dimensioning & Notes on PCB design
 
 ## Power supply : MAX 20008 
 
@@ -67,6 +70,14 @@ We dimension RC = 8.8K,
              CC = 39nF, 
              CF= 9nF 
 
+
+
+### Reverse polarity protection: 
+
+I added a  SB1060L schottky diode in series with Vin +, 
+Forward voltage = 0. 55V , rated 10A . TO 277B package
+
+JLCPCB part nb: C2929649
 
 ## Board Build
 

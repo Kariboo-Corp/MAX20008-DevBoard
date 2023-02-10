@@ -131,6 +131,9 @@
     (path "/4fd39f72-c251-4869-a1f4-1300e401ff75/cf6ef9f3-73b2-4282-9aa3-0b5a1d5586cf"
       (reference "Csup1") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
+    (path "/4fd39f72-c251-4869-a1f4-1300e401ff75/167e70a1-3d3c-44f8-8a00-19d152a88e4b"
+      (reference "Drpp1") (unit 1) (value "SB1060L") (footprint "footprints:TO_277B")
+    )
     (path "/4fd39f72-c251-4869-a1f4-1300e401ff75/4c3308c8-ff33-413c-a1f7-2016602d35b4"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
     )
