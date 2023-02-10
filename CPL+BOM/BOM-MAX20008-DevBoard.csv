@@ -1,5 +1,4 @@
-﻿Column1;Column2;Column3;Column4
-Comment;Designator;Footprint;LCSC Part #
+﻿Comment;Designator;Footprint;LCSC Part #
 2.2µF 50V  Unpolarized capacitor;CBIAS1;0603;C408135
 100nF 50V Unpolarized capacitor;Cbst1,  Cbyp1;0603;C85960
 DNP Unpolarized capacitor;Cc1;0603;DNP
